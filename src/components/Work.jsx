@@ -30,36 +30,32 @@ function Work() {
                   height={900}
                 />
               </div>
-              <div className="work__copy">
-                <div className="work__meta">
-                  <span className="work__index">{String(index + 1).padStart(2, '0')}</span>
-                  <span className="work__status">{project.status}</span>
-                  <span className="work__year">{project.year}</span>
-                </div>
-                <div className="work__body">
-                  <div className="work__title-row">
-                    {project.image ? (
-                      <img
-                        className="work__icon"
-                        src={project.image}
-                        alt=""
-                        width={40}
-                        height={40}
-                      />
-                    ) : null}
-                    <h3>{project.name}</h3>
-                  </div>
-                  <p>{project.blurb}</p>
-                  <ul className="work__stack">
-                    {project.stack.map((tech) => (
-                      <li key={tech}>{tech}</li>
-                    ))}
-                  </ul>
-                </div>
+              <div className="work__meta">
+                <span className="work__index">{String(index + 1).padStart(2, '0')}</span>
+                <span className="work__status">{project.status}</span>
+                <span className="work__year">{project.year}</span>
+              </div>
+              <div className="work__title-row">
+                {project.image ? (
+                  <img
+                    className="work__icon"
+                    src={project.image}
+                    alt=""
+                    width={32}
+                    height={32}
+                  />
+                ) : null}
+                <h3>{project.name}</h3>
                 <span className="work__arrow" aria-hidden="true">
                   →
                 </span>
               </div>
+              <p className="work__blurb">{project.blurb}</p>
+              <ul className="work__stack">
+                {project.stack.map((tech) => (
+                  <li key={tech}>{tech}</li>
+                ))}
+              </ul>
             </a>
           </li>
         ))}
