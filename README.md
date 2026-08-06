@@ -1,4 +1,4 @@
-# Jintong Wang — Portfolio
+# Jintong Wang Portfolio
 
 Personal portfolio for [Jintong Wang](https://github.com/Gintong10): products, games, and tools.
 

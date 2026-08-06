@@ -6,7 +6,7 @@ export const projects = [
     year: '2026',
     stack: ['Swift', 'SwiftUI', 'Screen Time', 'CoreLocation'],
     blurb:
-      'iOS app that locks distracting apps when you walk into places you choose — library, office, gym — via geofencing and Apple Screen Time.',
+      'iOS app that locks distracting apps when you walk into places you choose (library, office, gym) via geofencing and Apple Screen Time.',
     href: 'https://landlock.app',
     repo: 'https://github.com/Gintong10/landlock-web',
     image: '/projects/landlock.png',
@@ -18,7 +18,7 @@ export const projects = [
     year: '2026',
     stack: ['TypeScript', 'WebSockets', 'Fly.io', 'Cloudflare'],
     blurb:
-      'Private browser poker for home games — Hold’em, PLO, Crazy Pineapple, bomb pots, host ledger, and built-in Jitsi video. No signup.',
+      'Private browser poker for home games: Hold’em, PLO, Crazy Pineapple, bomb pots, host ledger, and built-in Jitsi video. No signup.',
     href: 'https://pokerwhen.gintong.dev',
     repo: null,
   },
@@ -29,7 +29,7 @@ export const projects = [
     year: '2026',
     stack: ['JavaScript', 'Cloudflare KV', 'Chrome Translator'],
     blurb:
-      'Sing along to Chinese songs with synced lyrics and English translations — built for ABCs who can speak more than they can read.',
+      'Sing along to Chinese songs with synced lyrics and English translations, built for ABCs who can speak more than they can read.',
     href: 'https://singchinese.online',
     repo: 'https://github.com/Gintong10/singchinese.online',
   },
@@ -51,7 +51,7 @@ export const projects = [
     year: '2026',
     stack: ['JavaScript', 'Multiplayer'],
     blurb:
-      'Draw a monster silhouette — shape becomes stats. Up to six players battle in a real-time arena. Built for TartanHacks under a tiny bundle budget.',
+      'Draw a monster silhouette; shape becomes stats. Up to six players battle in a real-time arena. Built for TartanHacks under a tiny bundle budget.',
     href: 'https://geometrical-gorlock.onrender.com',
     repo: 'https://github.com/Gintong10/Gintong10.github.io',
   },

@@ -4,7 +4,7 @@ function Contact() {
       <div className="section__head">
         <p className="section__label">Contact</p>
         <h2>Want to build something?</h2>
-        <p className="section__sub">Say hi — I’m around for collabs, feedback, and cool product ideas.</p>
+        <p className="section__sub">Say hi. I’m around for collabs, feedback, and cool product ideas.</p>
       </div>
       <div className="contact__actions">
         <a className="btn btn--primary" href="mailto:jintongawesome@gmail.com">

@@ -8,7 +8,7 @@ function Hero() {
         <p className="hero__brand">Jintong Wang</p>
         <h1 className="hero__headline">I ship small products that people can open and use.</h1>
         <p className="hero__lede">
-          CMU student building iOS apps, realtime games, and tools — from Pittsburgh and San Diego.
+          CMU student building iOS apps, realtime games, and tools, from Pittsburgh and San Diego.
         </p>
         <div className="hero__cta">
           <a className="btn btn--primary" href="#work">
