@@ -4,21 +4,21 @@ function HeroMap() {
       <svg className="hero-map__svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
         <defs>
           <linearGradient id="mapWash" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stopColor="#081816" />
-            <stop offset="45%" stopColor="#0e2521" />
-            <stop offset="100%" stopColor="#121f33" />
+            <stop offset="0%" stopColor="#0c211e" />
+            <stop offset="45%" stopColor="#122f2a" />
+            <stop offset="100%" stopColor="#17273e" />
           </linearGradient>
           <radialGradient id="glowA" cx="32%" cy="42%" r="28%">
-            <stop offset="0%" stopColor="#3ddc97" stopOpacity="0.1" />
-            <stop offset="70%" stopColor="#3ddc97" stopOpacity="0.02" />
+            <stop offset="0%" stopColor="#3ddc97" stopOpacity="0.13" />
+            <stop offset="70%" stopColor="#3ddc97" stopOpacity="0.025" />
             <stop offset="100%" stopColor="#3ddc97" stopOpacity="0" />
           </radialGradient>
           <radialGradient id="glowB" cx="68%" cy="58%" r="24%">
-            <stop offset="0%" stopColor="#ff6b3d" stopOpacity="0.07" />
+            <stop offset="0%" stopColor="#ff6b3d" stopOpacity="0.085" />
             <stop offset="100%" stopColor="#ff6b3d" stopOpacity="0" />
           </radialGradient>
           <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-            <path d="M48 0H0V48" fill="none" stroke="rgba(214,232,226,0.05)" strokeWidth="1" />
+            <path d="M48 0H0V48" fill="none" stroke="rgba(214,232,226,0.06)" strokeWidth="1" />
           </pattern>
         </defs>
 
@@ -28,7 +28,7 @@ function HeroMap() {
         <rect width="1440" height="900" fill="url(#glowB)" />
 
         {/* Street network */}
-        <g stroke="rgba(214,232,226,0.12)" strokeWidth="2" fill="none">
+        <g stroke="rgba(214,232,226,0.15)" strokeWidth="2" fill="none">
           <path d="M0 220 C220 180 380 260 560 240 S880 160 1100 210 S1320 280 1440 250" />
           <path d="M0 480 C180 520 360 440 540 470 S900 560 1120 500 S1300 430 1440 470" />
           <path d="M0 700 C240 660 420 740 640 710 S980 640 1200 690 S1360 760 1440 730" />

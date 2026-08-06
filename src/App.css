@@ -29,8 +29,8 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
-  opacity: 0.12;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 0.6px, transparent 0.6px);
+  opacity: 0.15;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.11) 0.6px, transparent 0.6px);
   background-size: 3px 3px;
   mix-blend-mode: soft-light;
 }
@@ -40,7 +40,7 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: rgba(4, 12, 11, 0.28);
+  background: rgba(4, 12, 11, 0.16);
 }
 
 .hero__content {
