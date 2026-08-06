@@ -26,18 +26,6 @@ export const projects = [
     preview: '/projects/singchinese-preview.png',
   },
   {
-    id: 'hungry-horse',
-    name: 'Hungry Horse Trainer',
-    status: 'Project',
-    year: '2026',
-    stack: ['TypeScript', 'Next.js', 'React'],
-    blurb:
-      'Custom Texas Hold’em drill builder and practice trainer. Author GTO scenarios with table setup, hero decisions, and villain responses, then run them as drills.',
-    href: 'https://github.com/Gintong10/hht',
-    repo: 'https://github.com/Gintong10/hht',
-    preview: '/projects/hungry-horse-preview.png',
-  },
-  {
     id: 'godot-dollar',
     name: 'Godot $1 Analyzer',
     status: 'Open source',
@@ -72,6 +60,18 @@ export const projects = [
     href: 'https://github.com/Gintong10/jeopardywithfriends',
     repo: 'https://github.com/Gintong10/jeopardywithfriends',
     preview: '/projects/buzzit-preview.png',
+  },
+  {
+    id: 'hungry-horse',
+    name: 'Hungry Horse Trainer',
+    status: 'Project',
+    year: '2026',
+    stack: ['TypeScript', 'Next.js', 'React'],
+    blurb:
+      'Custom Texas Hold’em drill builder and practice trainer. Author GTO scenarios with table setup, hero decisions, and villain responses, then run them as drills.',
+    href: 'https://github.com/Gintong10/hht',
+    repo: 'https://github.com/Gintong10/hht',
+    preview: '/projects/hungry-horse-preview.png',
   },
   {
     id: 'pokerwhen',
