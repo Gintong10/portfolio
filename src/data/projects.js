@@ -27,7 +27,7 @@ export const projects = [
   },
   {
     id: 'godot-dollar',
-    name: 'Godot $1 Analyzer',
+    name: 'Godot $1 Unistroke Analyzer',
     status: 'Open source',
     year: '2025',
     stack: ['Godot 4', 'GDScript'],
