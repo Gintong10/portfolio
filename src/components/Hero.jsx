@@ -17,6 +17,14 @@ function Hero() {
           <a className="btn btn--ghost" href="https://github.com/Gintong10" target="_blank" rel="noreferrer">
             GitHub
           </a>
+          <a
+            className="btn btn--ghost"
+            href="https://www.linkedin.com/in/jintong-wang-096645289/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
         </div>
       </div>
     </header>

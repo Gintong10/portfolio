@@ -49,12 +49,6 @@ function HeroMap() {
           <circle cx="980" cy="520" r="72" fill="none" stroke="#ff6b3d" strokeWidth="1.5" strokeDasharray="5 7" opacity="0.65" />
           <circle cx="980" cy="520" r="8" fill="#ff6b3d" />
         </g>
-
-        {/* You-are-here pulse */}
-        <g className="hero-map__pulse" transform="translate(460 380)">
-          <circle className="hero-map__ring" r="22" fill="none" stroke="#d6e8e2" strokeWidth="2" />
-          <circle className="hero-map__ring hero-map__ring--delay" r="22" fill="none" stroke="#d6e8e2" strokeWidth="2" />
-        </g>
       </svg>
       <div className="hero-map__grain" />
     </div>
