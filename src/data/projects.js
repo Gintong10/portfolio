@@ -14,16 +14,16 @@ export const projects = [
     previewFit: 'contain',
   },
   {
-    id: 'pokerwhen',
-    name: 'PokerWhen',
+    id: 'singchinese',
+    name: 'singchinese.online',
     status: 'Live',
     year: '2026',
-    stack: ['TypeScript', 'WebSockets', 'Fly.io', 'Cloudflare'],
+    stack: ['JavaScript', 'Cloudflare KV', 'Chrome Translator'],
     blurb:
-      'Private browser poker for home games: Hold’em, PLO, Crazy Pineapple, bomb pots, host ledger, and built-in Jitsi video. No signup.',
-    href: 'https://pokerwhen.gintong.dev',
-    repo: null,
-    preview: '/projects/pokerwhen-preview.png',
+      'Sing along to Chinese songs with synced lyrics and English translations, built for ABCs who can speak more than they can read.',
+    href: 'https://singchinese.online',
+    repo: 'https://github.com/Gintong10/singchinese.online',
+    preview: '/projects/singchinese-preview.png',
   },
   {
     id: 'hungry-horse',
@@ -38,18 +38,6 @@ export const projects = [
     preview: '/projects/hungry-horse-preview.png',
   },
   {
-    id: 'singchinese',
-    name: 'singchinese.online',
-    status: 'Live',
-    year: '2026',
-    stack: ['JavaScript', 'Cloudflare KV', 'Chrome Translator'],
-    blurb:
-      'Sing along to Chinese songs with synced lyrics and English translations, built for ABCs who can speak more than they can read.',
-    href: 'https://singchinese.online',
-    repo: 'https://github.com/Gintong10/singchinese.online',
-    preview: '/projects/singchinese-preview.png',
-  },
-  {
     id: 'buzzit',
     name: 'Buzzit',
     status: 'Project',
@@ -62,18 +50,6 @@ export const projects = [
     preview: '/projects/buzzit-preview.png',
   },
   {
-    id: 'shadow-puppet',
-    name: 'Shadow Puppet Arena',
-    status: 'TartanHacks',
-    year: '2026',
-    stack: ['JavaScript', 'Multiplayer'],
-    blurb:
-      'Draw a monster silhouette; shape becomes stats. Up to six players battle in a real-time arena. Built for TartanHacks under a tiny bundle budget.',
-    href: 'https://geometrical-gorlock.onrender.com',
-    repo: 'https://github.com/Gintong10/Gintong10.github.io',
-    preview: '/projects/shadow-preview.png',
-  },
-  {
     id: 'polybot',
     name: 'Polymarket Copybot',
     status: 'Tooling',
@@ -84,6 +60,30 @@ export const projects = [
     href: 'https://github.com/Gintong10/Polymarket-Copybot',
     repo: 'https://github.com/Gintong10/Polymarket-Copybot',
     preview: '/projects/polybot-preview.png',
+  },
+  {
+    id: 'pokerwhen',
+    name: 'PokerWhen',
+    status: 'Live',
+    year: '2026',
+    stack: ['TypeScript', 'WebSockets', 'Fly.io', 'Cloudflare'],
+    blurb:
+      'Private browser poker for home games: Hold’em, PLO, Crazy Pineapple, bomb pots, host ledger, and built-in Jitsi video. No signup.',
+    href: 'https://pokerwhen.gintong.dev',
+    repo: null,
+    preview: '/projects/pokerwhen-preview.png',
+  },
+  {
+    id: 'shadow-puppet',
+    name: 'Shadow Puppet Arena',
+    status: 'TartanHacks',
+    year: '2026',
+    stack: ['JavaScript', 'Multiplayer'],
+    blurb:
+      'Draw a monster silhouette; shape becomes stats. Up to six players battle in a real-time arena. Built for TartanHacks under a tiny bundle budget.',
+    href: 'https://geometrical-gorlock.onrender.com',
+    repo: 'https://github.com/Gintong10/Gintong10.github.io',
+    preview: '/projects/shadow-preview.png',
   },
 ]
 

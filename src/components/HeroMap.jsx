@@ -9,12 +9,12 @@ function HeroMap() {
             <stop offset="100%" stopColor="#1c2e4a" />
           </linearGradient>
           <radialGradient id="glowA" cx="32%" cy="42%" r="28%">
-            <stop offset="0%" stopColor="#3ddc97" stopOpacity="0.45" />
-            <stop offset="70%" stopColor="#3ddc97" stopOpacity="0.08" />
+            <stop offset="0%" stopColor="#3ddc97" stopOpacity="0.16" />
+            <stop offset="70%" stopColor="#3ddc97" stopOpacity="0.03" />
             <stop offset="100%" stopColor="#3ddc97" stopOpacity="0" />
           </radialGradient>
           <radialGradient id="glowB" cx="68%" cy="58%" r="24%">
-            <stop offset="0%" stopColor="#ff6b3d" stopOpacity="0.28" />
+            <stop offset="0%" stopColor="#ff6b3d" stopOpacity="0.1" />
             <stop offset="100%" stopColor="#ff6b3d" stopOpacity="0" />
           </radialGradient>
           <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
@@ -39,15 +39,15 @@ function HeroMap() {
         </g>
 
         {/* Geofence zones */}
-        <g className="hero-map__zone hero-map__zone--a">
-          <circle cx="460" cy="380" r="150" fill="rgba(61,220,151,0.08)" stroke="#3ddc97" strokeWidth="2" />
-          <circle cx="460" cy="380" r="96" fill="none" stroke="#3ddc97" strokeWidth="1.5" strokeDasharray="6 8" opacity="0.7" />
-          <circle cx="460" cy="380" r="10" fill="#3ddc97" />
+        <g className="hero-map__zone hero-map__zone--a" opacity="0.45">
+          <circle cx="460" cy="380" r="150" fill="rgba(61,220,151,0.04)" stroke="#3ddc97" strokeWidth="1.5" />
+          <circle cx="460" cy="380" r="96" fill="none" stroke="#3ddc97" strokeWidth="1.25" strokeDasharray="6 8" opacity="0.55" />
+          <circle cx="460" cy="380" r="10" fill="#3ddc97" opacity="0.7" />
         </g>
-        <g className="hero-map__zone hero-map__zone--b">
-          <circle cx="980" cy="520" r="120" fill="rgba(255,107,61,0.07)" stroke="#ff6b3d" strokeWidth="2" />
-          <circle cx="980" cy="520" r="72" fill="none" stroke="#ff6b3d" strokeWidth="1.5" strokeDasharray="5 7" opacity="0.65" />
-          <circle cx="980" cy="520" r="8" fill="#ff6b3d" />
+        <g className="hero-map__zone hero-map__zone--b" opacity="0.4">
+          <circle cx="980" cy="520" r="120" fill="rgba(255,107,61,0.035)" stroke="#ff6b3d" strokeWidth="1.5" />
+          <circle cx="980" cy="520" r="72" fill="none" stroke="#ff6b3d" strokeWidth="1.25" strokeDasharray="5 7" opacity="0.5" />
+          <circle cx="980" cy="520" r="8" fill="#ff6b3d" opacity="0.65" />
         </g>
       </svg>
       <div className="hero-map__grain" />

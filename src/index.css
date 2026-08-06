@@ -1,12 +1,13 @@
 :root {
-  --ink: #0b1f1c;
-  --ink-soft: #243c37;
+  --ink: #e8f2ee;
+  --ink-soft: #a8c4ba;
   --mist: #d6e8e2;
-  --paper: #f3f7f5;
-  --surface: #e7f0ec;
-  --line: rgba(11, 31, 28, 0.12);
-  --signal: #0f8f6c;
-  --signal-bright: #3ddc97;
+  --paper: #071614;
+  --surface: #0f2420;
+  --surface-raised: #14302b;
+  --line: rgba(214, 232, 226, 0.12);
+  --signal: #3ddc97;
+  --signal-bright: #5ee9ab;
   --ember: #ff6b3d;
   --deep: #0f2a26;
   --deep-2: #1c2e4a;
@@ -16,7 +17,6 @@
   --mono: 'IBM Plex Mono', ui-monospace, monospace;
 
   --max: 1120px;
-  --nav-h: 64px;
 
   color: var(--ink-soft);
   background: var(--paper);
@@ -27,6 +27,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color-scheme: dark;
 }
 
 *,
@@ -42,6 +43,7 @@ html {
 body {
   margin: 0;
   min-width: 320px;
+  background: var(--paper);
 }
 
 #root {
@@ -72,7 +74,7 @@ textarea {
 
 ::selection {
   background: rgba(61, 220, 151, 0.35);
-  color: var(--ink);
+  color: #071614;
 }
 
 @media (prefers-reduced-motion: reduce) {

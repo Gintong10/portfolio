@@ -11,8 +11,8 @@ function Hero() {
           CMU student building iOS apps, realtime games, and tools, from Pittsburgh and San Diego.
         </p>
         <div className="hero__cta">
-          <a className="btn btn--primary" href="#work">
-            See the work
+          <a className="btn btn--ghost" href="mailto:jintongawesome@gmail.com">
+            jintongawesome@gmail.com
           </a>
           <a className="btn btn--ghost" href="https://github.com/Gintong10" target="_blank" rel="noreferrer">
             GitHub
