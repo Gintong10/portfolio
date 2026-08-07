@@ -77,11 +77,19 @@
 }
 
 .hero__lede {
-  max-width: 38rem;
+  max-width: 40rem;
   margin-inline: auto;
-  font-size: 1.05rem;
-  color: rgba(214, 232, 226, 0.88);
   margin-bottom: 1.75rem;
+  display: grid;
+  gap: 0.9rem;
+  text-align: left;
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: rgba(214, 232, 226, 0.88);
+}
+
+.hero__lede p {
+  margin: 0;
 }
 
 .hero__cta {
