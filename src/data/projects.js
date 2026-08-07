@@ -98,14 +98,3 @@ export const projects = [
     preview: '/projects/shadow-preview.png',
   },
 ]
-
-export const skills = [
-  'Swift / SwiftUI',
-  'TypeScript / JavaScript',
-  'React',
-  'Python',
-  'Realtime / WebSockets',
-  'iOS Screen Time APIs',
-  'Cloudflare / Fly.io',
-  'Godot / GDScript',
-]

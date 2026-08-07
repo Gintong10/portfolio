@@ -390,56 +390,6 @@
   flex-shrink: 0;
 }
 
-/* About */
-.about {
-  background:
-    radial-gradient(ellipse 60% 50% at 100% 0%, rgba(61, 220, 151, 0.1), transparent 55%),
-    radial-gradient(ellipse 45% 40% at 0% 100%, rgba(255, 107, 61, 0.07), transparent 50%),
-    linear-gradient(180deg, #0a1c19, var(--paper));
-  width: 100%;
-  padding-left: max(1.25rem, calc((100% - var(--max)) / 2));
-  padding-right: max(1.25rem, calc((100% - var(--max)) / 2));
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-}
-
-.about .section__head,
-.about__grid {
-  width: min(var(--max), 100%);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.about__grid {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  gap: 2.5rem;
-  align-items: start;
-}
-
-.about__copy {
-  display: grid;
-  gap: 1rem;
-  font-size: 1.08rem;
-  max-width: 40rem;
-}
-
-.about__skills {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 0.55rem;
-}
-
-.about__skills li {
-  font-family: var(--mono);
-  font-size: 0.86rem;
-  padding: 0.7rem 0;
-  border-bottom: 1px solid var(--line);
-  color: var(--ink);
-}
-
 /* Footer */
 .footer {
   width: min(var(--max), calc(100% - 2.5rem));
@@ -468,11 +418,6 @@
   .work__list {
     grid-template-columns: 1fr;
     gap: 1.75rem;
-  }
-
-  .about__grid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
   }
 }
 
