@@ -26,6 +26,18 @@ export const projects = [
     preview: '/projects/singchinese-preview.png',
   },
   {
+    id: 'desmosdraw',
+    name: 'DesmosDraw',
+    status: 'Live',
+    year: '2026',
+    stack: ['JavaScript', 'Vite', 'Desmos API', 'ONNX'],
+    blurb:
+      'Upload a sketch or photo and watch it redraw itself as parametric strokes in Desmos — in-browser background removal, ink tracing, and playback.',
+    href: 'https://desmosdraw.gintong.dev',
+    repo: 'https://github.com/Gintong10/desmosdraw',
+    preview: '/projects/desmosdraw-preview.png',
+  },
+  {
     id: 'godot-dollar',
     name: 'Godot $1 Unistroke Analyzer',
     status: 'Open source',
