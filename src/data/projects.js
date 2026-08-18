@@ -14,6 +14,18 @@ export const projects = [
     previewFit: 'contain',
   },
   {
+    id: 'coldprof',
+    name: 'coldprof',
+    status: 'Live',
+    year: '2026',
+    stack: ['Next.js', 'OpenAlex', 'OpenAI', 'Stripe'],
+    blurb:
+      'Find faculty and PhD students working on what interests you, then draft a cold email from one of their actual papers — with the abstract beside the draft so you can verify the hook.',
+    href: 'https://coldprof.com',
+    repo: 'https://github.com/Gintong10/coldprof',
+    preview: '/projects/coldprof-preview.png',
+  },
+  {
     id: 'singchinese',
     name: 'singchinese.online',
     status: 'Live',
